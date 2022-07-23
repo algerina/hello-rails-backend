@@ -20,7 +20,7 @@
  
 ## Front-end Repository 
 
-[ReactApp](https://github.com/algerina/hello-react-frontend)
+[ReactApp](https://github.com/algerina/hello-react-front)
 
 
 ## Built With
@@ -101,5 +101,6 @@ Which you can visit by going to http://localhost:3001 in your browser.
 
 Give a ⭐️ if you like this project!
 <hr>
+
 
 
