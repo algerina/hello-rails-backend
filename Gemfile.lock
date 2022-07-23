@@ -120,6 +120,8 @@ GEM
       nio4r (~> 2.0)
     racc (1.6.0)
     rack (2.2.3.1)
+    rack-cors (1.1.1)
+      rack (>= 2.0.0)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails (7.0.3)
@@ -154,13 +156,16 @@ GEM
     reline (0.3.1)
       io-console (~> 0.5)
     rexml (3.2.5)
+
     rubocop (1.32.0)
       json (~> 2.3)
+
       parallel (~> 1.10)
       parser (>= 3.1.0.0)
       rainbow (>= 2.2.2, < 4.0)
       regexp_parser (>= 1.8, < 3.0)
       rexml (>= 3.2.5, < 4.0)
+
       rubocop-ast (>= 1.19.1, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 3.0)
@@ -174,7 +179,9 @@ GEM
       concurrent-ruby (~> 1.0)
     tzinfo-data (1.2022.1)
       tzinfo (>= 1.0.0)
-    unicode-display_width (2.2.0)
+
+    unicode-display_width (2.1.0)
+
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
@@ -188,6 +195,7 @@ DEPENDENCIES
   debug
   pg (~> 1.1)
   puma (~> 5.0)
+  rack-cors
   rails (~> 7.0.3)
   rubocop (>= 1.0, < 2.0)
   tzinfo-data
