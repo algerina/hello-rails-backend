@@ -20,7 +20,7 @@
  
 ## Front-end Repository 
 
-[ReactApp](https://github.com/algerina/hello-react-frontend)
+[ReactApp](https://github.com/algerina/hello-react-front)
 
 
 ## Built With
